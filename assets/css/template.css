@@ -1,0 +1,228 @@
+body{
+	margin:0px;
+	padding:0px; 
+	font-family:'Yanone Kaffeesatz';
+}
+.container2{
+	display: flex;
+	justify-content: flex-start;
+}
+.menu_principal{
+	padding: 50px;
+	background-color: #000000;
+	font-weight: bold;
+	font-size: 30px;
+	height: 50px;
+
+}
+nav ul{
+	display:flex;
+}
+nav ul,
+nav li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav a{
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color: #ffffff;
+}
+nav a:hover {
+	background-color:#5c5c5c;
+	color:#ffffff;
+}
+.container{
+	display: flex;
+	justify-content: flex-start;
+	width: 1200
+	height:auto;
+
+}
+#banner_mk{
+	background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.nome h1{
+	margin-left: 50px;
+	color:#ffffff;
+	font-size: 60px;
+	margin-bottom: 0;
+}
+.mk_bar{
+	margin-left: 80px;
+	margin-right: 50px;
+	height: 2px;
+	width: auto;
+	background-color: #ffffff;
+}
+.nome h2{
+	margin-left: 70px;
+	color:#ffffff;
+	font-size: 30px;
+
+}
+.nome h3{
+	margin-left: 50px;
+	color:#ffffff;
+	font-size: 18px;
+	line-height: 25px;
+}
+#geral,
+#geral_2{
+	display: flex;
+	justify-content: center;
+}
+.container_bio{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: #000000;
+}
+#geral section{
+	flex: 1;
+}
+section{
+	display: block;
+}
+.widget_title,
+.widget_title_disc{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.widget_title_text,
+.widget_title_disc{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+.widget_title_bar,
+.widget_title_bar_disc{
+	width: 50px;
+	height: 3px;
+	background-color: #ffffff;
+	margin-top:10px;
+	margin-left: 60px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.widget_body,
+.widget_body_disc{
+	color: #ffffff;
+	font-size: 15px;
+}
+article .new_resume,
+article .new_resume_disc{
+	color: #5c5c5c;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 30px;
+	padding-left: 50px;
+	font-weight: bold;
+	line-height: 23px;
+}
+#geral aside{
+	flex: 1;
+}
+.new_resume img{
+	margin-top: 100px;
+	width: 300px;
+	height: auto;
+	padding-left: 50%;
+}
+
+.container_disc{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	background-color: #000000;
+}
+.widget_body_disc{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.new_resume_disc{
+	display: flex;
+	justify-content: space-between;
+}
+
+.discos{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+.disc_title{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Ano_lancamento{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img_disc img{
+	max-width: 160px;
+	border-radius: 100px;
+	border:3px solid #ffffff;
+}
+.album_estudio{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+footer .footer_bar{
+	width: 100%;
+	height: 1px;
+	background-color: #5c5c5c;
+	margin-top: 30px;
+	margin-bottom: 0;
+
+}
+.dev_by{
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 10px;
+}
+.social{
+	display: flex;
+	justify-content: center;
+}
+.social img{
+	width: 30px;
+}
+
+@media (max-width: 600px){
+	.container2{
+		flex-direction: column;
+	}
+}
